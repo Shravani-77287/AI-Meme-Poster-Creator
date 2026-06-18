@@ -14,9 +14,10 @@ topic = st.text_input(
 template = st.selectbox(
     "Choose Template",
     [
-        "templates/meme1.jpg",
-        "templates/meme2.jpg",
-        "templates/poster1.jpg"
+         "meme1.jpg",
+        "meme2.jpg",
+        "poster1.jpg",
+        "poster2.jpg"
     ]
 )
 
