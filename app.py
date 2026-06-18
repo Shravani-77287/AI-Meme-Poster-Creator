@@ -1,11 +1,13 @@
 import streamlit as st
+import os
 
 from caption_generator import generate_caption
 from poster_creator import create_poster
 
-st.title(
-    "AI Meme & Poster Creator"
-)
+os.makedirs("generated", exist_ok=True)
+
+st.title("AI Meme & Poster Creator")
+
 
 topic = st.text_input(
     "Enter Topic"
